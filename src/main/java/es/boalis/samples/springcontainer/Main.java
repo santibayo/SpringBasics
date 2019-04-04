@@ -14,6 +14,12 @@ public class Main {
     // ciclos de vida
     // https://howtodoinjava.com/spring-core/spring-bean-life-cycle/
 
+    // anotaciones
+    // https://www.baeldung.com/spring-bean-annotations a
+
+    // scopes
+    // https://howtodoinjava.com/spring-core/spring-bean-scopes/
+
     public static void main (String ... args){
         AbstractApplicationContext context = new AnnotationConfigApplicationContext(Configuration.class);
         DrinkService service = (DrinkService)context.getBean("simpleDrinkService");
