@@ -14,7 +14,7 @@ public class Configuration {
 
     @Bean(name="simpleDrinkService")
     @Description("This is a sample HelloWorld Bean")
-    @Scope("prototype")
+    //@Scope("prototype")
     public DrinkService simpleDrinkService() {
         return new SimpleDrinkServiceImpl();
     }
